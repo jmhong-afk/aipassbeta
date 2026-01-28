@@ -5,38 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI PASS 베타테스터 모집</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    .glass { backdrop-filter: blur(12px); background: rgba(255,255,255,0.08); }
+    html { font-family: 'Manrope', system-ui, -apple-system, sans-serif; }
+    .glass { backdrop-filter: blur(20px); background: rgba(255,255,255,0.08); }
+    .grid-bg {
+      background-image:
+        radial-gradient(circle at 1px 1px, rgba(255,255,255,0.12) 1px, transparent 0);
+      background-size: 28px 28px;
+    }
+    .noise { background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); opacity: .08; }
   </style>
 </head>
 <body class="bg-slate-950 text-white">
   <!-- HERO -->
   <header class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-indigo-700 via-purple-700 to-fuchsia-700"></div>
-    <div class="absolute -top-32 -right-32 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-    <div class="absolute top-40 -left-40 w-[28rem] h-[28rem] bg-white/10 rounded-full blur-3xl"></div>
-    <div class="relative max-w-6xl mx-auto px-6 py-20">
-      <div class="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-white/70">
+    <div class="absolute inset-0 noise"></div>
+    <div class="absolute -top-40 -right-40 w-[32rem] h-[32rem] bg-white/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-20 -left-40 w-[28rem] h-[28rem] bg-white/10 rounded-full blur-3xl"></div>
+
+    <div class="relative max-w-6xl mx-auto px-6 py-24">
+      <div class="flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-white/70">
         <span class="px-3 py-1 rounded-full border border-white/30">Team J-Curve</span>
         <span class="px-3 py-1 rounded-full border border-white/30">AI PASS</span>
         <span class="px-3 py-1 rounded-full border border-white/30">Beta</span>
       </div>
-      <h1 class="mt-6 text-4xl md:text-6xl font-bold leading-tight">AI PASS 베타테스터 모집</h1>
+      <h1 class="mt-6 text-4xl md:text-6xl font-extrabold leading-tight">AI PASS 베타테스터 모집</h1>
       <p class="mt-5 text-lg md:text-xl text-white/90 max-w-2xl">기업형 통합 AI 학습 허브 ‘AI PASS’를 함께 검증하고 개선할 파트너를 찾습니다.</p>
       <div class="mt-10 flex flex-wrap gap-3">
         <a href="https://docs.google.com/forms/d/e/13tAN3CCShwBeGImnff_fc1VcGpIxEa6cvSF_uaRxidE/viewform" target="_blank" class="px-7 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow-lg hover:shadow-xl">베타테스터 신청하기</a>
         <a href="#details" class="px-7 py-3 rounded-xl border border-white/40 hover:bg-white/10">프로그램 자세히 보기</a>
       </div>
-      <div class="mt-10 grid md:grid-cols-3 gap-4">
-        <div class="glass rounded-2xl p-5 border border-white/20">
+
+      <div class="mt-12 grid md:grid-cols-3 gap-4">
+        <div class="glass rounded-2xl p-6 border border-white/20">
           <p class="text-xs text-white/70">All-in-One</p>
           <p class="mt-2 font-semibold">LLM·이미지·영상·음악 통합</p>
         </div>
-        <div class="glass rounded-2xl p-5 border border-white/20">
+        <div class="glass rounded-2xl p-6 border border-white/20">
           <p class="text-xs text-white/70">Corporate Control</p>
           <p class="mt-2 font-semibold">보안·크레딧·사용량 통합 관리</p>
         </div>
-        <div class="glass rounded-2xl p-5 border border-white/20">
+        <div class="glass rounded-2xl p-6 border border-white/20">
           <p class="text-xs text-white/70">Education Mode</p>
           <p class="mt-2 font-semibold">강의·실습·성과 관리</p>
         </div>
@@ -76,6 +89,25 @@
           <h3 class="font-semibold text-white">지속 학습</h3>
           <p class="text-slate-300 mt-2">교육 이후에도 동일 환경에서 실습과 활용 지속</p>
         </div>
+      </div>
+    </section>
+
+    <!-- FEATURE GRID -->
+    <section class="grid md:grid-cols-3 gap-4">
+      <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+        <p class="text-xs text-slate-400">For Instructors</p>
+        <p class="mt-2 font-semibold">강의 전 세팅 자동화</p>
+        <p class="text-slate-400 mt-2">로그인·계정 발급·보안 등록을 한 번에</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+        <p class="text-xs text-slate-400">For Learners</p>
+        <p class="mt-2 font-semibold">실습과 결과물 관리</p>
+        <p class="text-slate-400 mt-2">생성 결과 자동 저장 및 피드백</p>
+      </div>
+      <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+        <p class="text-xs text-slate-400">For HRD</p>
+        <p class="mt-2 font-semibold">대시보드 통합 관리</p>
+        <p class="text-slate-400 mt-2">사용량·참여율·성과 추적</p>
       </div>
     </section>
 
