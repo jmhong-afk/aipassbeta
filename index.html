@@ -6,80 +6,85 @@
   <title>AI PASS 베타테스터 모집</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.1); }
+    .glass { backdrop-filter: blur(12px); background: rgba(255,255,255,0.08); }
   </style>
 </head>
 <body class="bg-slate-950 text-white">
+  <!-- HERO -->
   <header class="relative overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-br from-indigo-600 via-purple-600 to-fuchsia-600 opacity-90"></div>
-    <div class="absolute -top-24 -right-24 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
-    <div class="absolute top-32 -left-32 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-indigo-700 via-purple-700 to-fuchsia-700"></div>
+    <div class="absolute -top-32 -right-32 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-40 -left-40 w-[28rem] h-[28rem] bg-white/10 rounded-full blur-3xl"></div>
     <div class="relative max-w-6xl mx-auto px-6 py-20">
-      <div class="flex items-center gap-3 text-sm uppercase tracking-widest text-white/80">
+      <div class="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-white/70">
         <span class="px-3 py-1 rounded-full border border-white/30">Team J-Curve</span>
         <span class="px-3 py-1 rounded-full border border-white/30">AI PASS</span>
+        <span class="px-3 py-1 rounded-full border border-white/30">Beta</span>
       </div>
-      <h1 class="text-4xl md:text-6xl font-bold mt-6 leading-tight">AI PASS 베타테스터 모집</h1>
-      <p class="mt-5 text-lg md:text-xl text-white/90 max-w-2xl">기업형 통합 AI 학습 허브 ‘AI PASS’를 함께 검증하고 개선할 베타테스터를 찾습니다.</p>
+      <h1 class="mt-6 text-4xl md:text-6xl font-bold leading-tight">AI PASS 베타테스터 모집</h1>
+      <p class="mt-5 text-lg md:text-xl text-white/90 max-w-2xl">기업형 통합 AI 학습 허브 ‘AI PASS’를 함께 검증하고 개선할 파트너를 찾습니다.</p>
       <div class="mt-10 flex flex-wrap gap-3">
-        <a href="https://docs.google.com/forms/d/e/13tAN3CCShwBeGImnff_fc1VcGpIxEa6cvSF_uaRxidE/viewform" target="_blank" class="px-6 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow-lg hover:shadow-xl">베타테스터 신청하기</a>
-        <a href="#details" class="px-6 py-3 rounded-xl border border-white/40 hover:bg-white/10">프로그램 자세히 보기</a>
+        <a href="https://docs.google.com/forms/d/e/13tAN3CCShwBeGImnff_fc1VcGpIxEa6cvSF_uaRxidE/viewform" target="_blank" class="px-7 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow-lg hover:shadow-xl">베타테스터 신청하기</a>
+        <a href="#details" class="px-7 py-3 rounded-xl border border-white/40 hover:bg-white/10">프로그램 자세히 보기</a>
       </div>
       <div class="mt-10 grid md:grid-cols-3 gap-4">
-        <div class="glass rounded-xl p-5 border border-white/20">
-          <p class="text-sm text-white/70">All-in-One</p>
+        <div class="glass rounded-2xl p-5 border border-white/20">
+          <p class="text-xs text-white/70">All-in-One</p>
           <p class="mt-2 font-semibold">LLM·이미지·영상·음악 통합</p>
         </div>
-        <div class="glass rounded-xl p-5 border border-white/20">
-          <p class="text-sm text-white/70">Corporate Control</p>
+        <div class="glass rounded-2xl p-5 border border-white/20">
+          <p class="text-xs text-white/70">Corporate Control</p>
           <p class="mt-2 font-semibold">보안·크레딧·사용량 통합 관리</p>
         </div>
-        <div class="glass rounded-xl p-5 border border-white/20">
-          <p class="text-sm text-white/70">Education Mode</p>
+        <div class="glass rounded-2xl p-5 border border-white/20">
+          <p class="text-xs text-white/70">Education Mode</p>
           <p class="mt-2 font-semibold">강의·실습·성과 관리</p>
         </div>
       </div>
     </div>
   </header>
 
-  <main id="details" class="max-w-6xl mx-auto px-6 py-16 space-y-14 text-slate-200">
+  <main id="details" class="max-w-6xl mx-auto px-6 py-16 space-y-16 text-slate-200">
+    <!-- PROBLEM -->
     <section>
       <h2 class="text-2xl font-bold text-white">왜 AI PASS인가요?</h2>
-      <div class="mt-4 grid md:grid-cols-2 gap-4">
-        <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">AI 툴이 많고 빠르게 바뀌어 교육/운영이 비효율적</div>
-        <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">교육이 끝나면 실무 활용이 이어지지 않음</div>
-        <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">보안·비용 문제로 지속적인 도입이 어려움</div>
-        <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">부서별 툴 사용이 분산되어 관리가 어려움</div>
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800">AI 툴이 많고 빠르게 바뀌어 교육/운영이 비효율적</div>
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800">교육이 끝나면 실무 활용이 이어지지 않음</div>
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800">보안·비용 문제로 지속적인 도입이 어려움</div>
+        <div class="p-6 rounded-2xl bg-slate-900/70 border border-slate-800">부서별 툴 사용이 분산되어 관리가 어려움</div>
       </div>
     </section>
 
+    <!-- VALUE -->
     <section>
       <h2 class="text-2xl font-bold text-white">AI PASS가 제공하는 가치</h2>
-      <div class="mt-4 grid md:grid-cols-2 gap-4">
-        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="p-7 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
           <h3 class="font-semibold text-white">All-in-One Access</h3>
           <p class="text-slate-300 mt-2">LLM·이미지·영상·음악 AI를 한 번에 제공</p>
         </div>
-        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
+        <div class="p-7 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
           <h3 class="font-semibold text-white">Corporate Control</h3>
           <p class="text-slate-300 mt-2">사내 보안 환경에 맞춘 전용 서버와 크레딧 관리</p>
         </div>
-        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
+        <div class="p-7 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
           <h3 class="font-semibold text-white">Education Mode</h3>
           <p class="text-slate-300 mt-2">강의/실습/성과를 통합 관리하는 교육 모드</p>
         </div>
-        <div class="p-6 rounded-xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
+        <div class="p-7 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700">
           <h3 class="font-semibold text-white">지속 학습</h3>
           <p class="text-slate-300 mt-2">교육 이후에도 동일 환경에서 실습과 활용 지속</p>
         </div>
       </div>
     </section>
 
-    <section class="grid md:grid-cols-2 gap-8">
+    <!-- WHO/ROLE -->
+    <section class="grid md:grid-cols-2 gap-10">
       <div>
         <h2 class="text-2xl font-bold text-white">베타테스터 역할</h2>
         <ul class="mt-4 list-disc pl-6 text-slate-300 space-y-2">
-          <li>실사용 피드백 제공 (버그·UX 개선 등)</li>
+          <li>실사용 피드백 제공 (버그·UX 개선)</li>
           <li>기능 검증 및 개선 과제 제안</li>
           <li>온보딩/테스트 과정 참여</li>
         </ul>
@@ -94,18 +99,31 @@
       </div>
     </section>
 
+    <!-- PROCESS -->
     <section>
       <h2 class="text-2xl font-bold text-white">모집 및 진행 방식</h2>
-      <ul class="mt-4 list-disc pl-6 text-slate-300 space-y-2">
-        <li>구글 폼 신청 → 1차 검토 → 개별 인터뷰/테스트(필요 시)</li>
-        <li>PoC/Pilot 참여 기업 대상 테스트 병행 가능</li>
-      </ul>
+      <div class="mt-5 grid md:grid-cols-3 gap-4">
+        <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+          <p class="text-sm text-slate-400">Step 1</p>
+          <p class="mt-2 font-semibold">구글 폼 신청</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+          <p class="text-sm text-slate-400">Step 2</p>
+          <p class="mt-2 font-semibold">1차 검토</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/70">
+          <p class="text-sm text-slate-400">Step 3</p>
+          <p class="mt-2 font-semibold">개별 인터뷰/테스트(필요 시)</p>
+        </div>
+      </div>
+      <p class="mt-4 text-slate-400">PoC/Pilot 참여 기업 대상 테스트 병행 가능</p>
     </section>
 
-    <section class="rounded-2xl p-8 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/30">
+    <!-- CTA -->
+    <section class="rounded-3xl p-10 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/30">
       <h2 class="text-2xl font-bold text-white">지금 신청하세요</h2>
-      <p class="text-slate-200 mt-2">베타테스터는 AI PASS 개선의 핵심 파트너입니다. 직접 참여하고 싶다면 지금 신청해 주세요.</p>
-      <div class="mt-5">
+      <p class="text-slate-200 mt-2">베타테스터는 AI PASS 개선의 핵심 파트너입니다.</p>
+      <div class="mt-6">
         <a href="https://docs.google.com/forms/d/e/13tAN3CCShwBeGImnff_fc1VcGpIxEa6cvSF_uaRxidE/viewform" target="_blank" class="inline-block px-7 py-3 bg-white text-indigo-700 rounded-xl font-semibold shadow-lg hover:shadow-xl">베타테스터 신청하기</a>
       </div>
     </section>
